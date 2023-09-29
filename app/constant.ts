@@ -77,6 +77,22 @@ export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
 
 export const DEFAULT_MODELS = [
   {
+    name:"qwen-turbo",
+    available:true,
+  },
+  {
+    name:"qwen-plus",
+    available:true,
+  },
+  {
+    name:"text-embedding-v1",
+    available:true,
+  },
+  {
+    name:"SparkDesk",
+    available:true,
+  },
+  {
     name: "gpt-4",
     available: true,
   },
